@@ -1,0 +1,24 @@
+{
+    "host": "localhost",
+    "port": 4000,
+    "webHost": "http://localhost:4000",
+    "dbURI": "mongodb://localhost/maple",
+    "userAuths": {
+        "algorithm": "sha256",
+        "secretKey": "maple-key"
+    },
+    "jwt": {
+        "expireTime": "30d",
+        "algorithm": "HS384",
+        "secretKey": "maple-key"
+    },
+    "nodemailerObj": {
+        "host": "smtp.gmail.com",
+        "port": 465,
+        "secure": true,
+        "auth": {
+            "user": "andreas.klingenberger@gmail.com",
+            "pass": ""
+        }
+    }
+}
